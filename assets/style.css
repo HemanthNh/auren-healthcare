@@ -1,0 +1,222 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; padding: 0;
+    background: #fff; color: #333;
+  }
+  header { background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  .logo { font-family: 'Poppins', sans-serif; font-weight: 600; color: #007BFF; font-size: 1.5rem; }
+  nav ul { list-style: none; display: flex; }
+  nav ul li { margin-left: 25px; }
+  nav ul li a { text-decoration: none; color: #333; font-weight: 500; transition: color 0.3s; }
+  nav ul li a:hover { color: #007BFF; }
+  
+  .hero {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    height: 80vh; text-align: center;
+    background: linear-gradient(rgba(0,0,70,0.2), rgba(0,0,70,0.2)),
+                url('https://source.unsplash.com/1600x900/?healthcare,laboratory') center/cover;
+    color: #fff;
+  }
+  .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+  .hero p { max-width: 700px; font-size: 1.2rem; }
+  .btn-primary {
+    background: #007BFF; color: white;
+    padding: 12px 24px; border-radius: 5px;
+    text-decoration: none; margin-top: 20px;
+  }
+  .btn-primary:hover { background: #0056B3; }
+  
+  .cards {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;
+    padding: 20px;
+  }
+  /* .card {
+    background: #fff; border-radius: 8px; padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center; cursor: pointer; transition: transform 0.3s;
+  } */
+  .card {
+    border-radius: 14px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), 
+                box-shadow 0.4s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  }
+  .modal {
+    display: none; position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%; background: rgba(0,0,0,0.6);
+    justify-content: center; align-items: center; z-index: 100;
+  }
+  .modal-content {
+    background: #fff; padding: 30px; border-radius: 8px;
+    max-width: 500px; width: 90%; position: relative;
+  }
+  .close { position: absolute; top: 10px; right: 15px; cursor: pointer; font-size: 22px; }
+  .view-link { color: #007BFF; text-decoration: underline; }
+  
+  footer {
+    background: #007BFF; color: white; text-align: center; padding: 30px 0; margin-top: 60px;
+  }
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .whatsapp-float img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  }
+  
+  
+
+  .about-hero, .contact-hero {
+    background: linear-gradient(rgba(0,0,70,0.3), rgba(0,0,70,0.3)),
+                url('https://source.unsplash.com/1600x900/?pharma,healthcare') center/cover;
+    color: #fff; text-align: center; padding: 100px 20px;
+  }
+  .about-content, .contact-form {
+    max-width: 900px; margin: 50px auto; padding: 0 20px; line-height: 1.7;
+  }
+  .about-content ul { list-style: disc; margin-left: 20px; }
+  .contact-form form {
+    display: flex; flex-direction: column; gap: 15px;
+  }
+  .contact-form input, .contact-form textarea {
+    padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem;
+  }
+  .contact-form button { align-self: flex-start; }
+  .contact-info { margin-top: 40px; }
+  .active { color: #007BFF; font-weight: 600; }
+  
+  .card-img-top {
+    height: 280px;
+    object-fit: cover;
+  }
+
+ .product-img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #fafafa;
+  padding: 10px;
+  transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1),
+              filter 0.8s ease;
+}
+  
+  .card:hover .product-img {
+    transform: scale(1.15) translateY(-2px);
+    filter: brightness(1.06) contrast(1.02) saturate(1.05);
+  }
+  .card {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  
+  .card-body {
+    min-height: 220px;          /* ensures text area feels balanced */
+  }
+  
+
+  #category-nav {
+    top: 70px;
+    z-index: 1000;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  
+  #category-nav .nav-link {
+    font-weight: 500;
+    color: #0d6efd;
+    border-radius: 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  #category-nav .nav-link.active,
+  #category-nav .nav-link:hover {
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  
+  section {
+    scroll-margin-top: 90px;
+  }
+  
+
+  #category-nav, #category-dropdown {
+    background: #fff;
+  }
+  #category-nav .nav-link {
+    font-weight: 500;
+    color: #0d6efd;
+    border-radius: 20px;
+    margin: 4px;
+  }
+  #category-nav .nav-link:hover,
+  #category-nav .nav-link.active {
+    background: #0d6efd;
+    color: #fff !important;
+  }
+
+  #copy-btn {
+    padding: 2px 10px;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    transition: 0.2s;
+  }
+  #copy-btn:hover {
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+  /* Ensure collapsed navbar sits above everything else */
+  .navbar-collapse {
+    position: relative;
+    z-index: 1050;
+    background-color: #fff; /* gives it a clean background */
+    padding: 10px;
+  }
+
+  /* Push down category dropdown so it doesn’t overlap */
+  .navbar-collapse.show ~ .position-sticky {
+    margin-top: 180px; /* adjust this if overlap still occurs */
+  }
+
+  /* Optional: make dropdown fixed below navbar */
+  #category-dropdown {
+    position: relative;
+    z-index: 100;
+  }
+}
+
+.auren-logo{
+      border-radius: 15px !important;
+}

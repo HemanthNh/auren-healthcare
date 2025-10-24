@@ -1,0 +1,179 @@
+[
+    {
+      "id": 1,
+      "name": "Saveglip-M",
+      "composition": "Vildagliptin + Metformin Hydrochloride",
+      "category": "Diabetes",
+      "use": "Improves blood sugar control by enhancing insulin secretion and reducing glucose production.",
+      "image_url": "images/Saveglip-M.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Saveglip-D",
+      "composition": "Dapagliflozin + Vildagliptin SR",
+      "category": "Diabetes",
+      "use": "Dual-action glucose control — increases insulin and removes excess sugar via urine.",
+      "image_url": "images/Saveglip-D.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Saveglip-50",
+      "composition": "Vildagliptin 50 mg",
+      "category": "Diabetes",
+      "use": "Improves insulin release and lowers blood sugar as monotherapy or adjunct.",
+      "image_url": "images/Saveglip-50.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Saveglip-Trio",
+      "composition": "Dapagliflozin + Sitagliptin + Metformin",
+      "category": "Diabetes",
+      "use": "Triple therapy for comprehensive glycemic management.",
+      "image_url": "images/Saveglip-Trio.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Saveglip-DM",
+      "composition": "Vildagliptin SR + Dapagliflozin + Metformin SR",
+      "category": "Diabetes",
+      "use": "Long-acting triple combination to maintain steady glucose levels.",
+      "image_url": "images/Saveglip-DM.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Tinsure-M",
+      "composition": "Teneligliptin + Metformin ER",
+      "category": "Diabetes",
+      "use": "DPP-4 inhibitor and Metformin combo for insulin sensitivity and glucose reduction.",
+      "image_url": "images/Tinsure-M.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sureglim-M1",
+      "composition": "Glimepiride 1 mg + Metformin SR",
+      "category": "Diabetes",
+      "use": "Dual therapy for sugar control — stimulates insulin and reduces hepatic glucose.",
+      "image_url": "images/Sureglim-M1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sureglim-M2",
+      "composition": "Glimepiride 2 mg + Metformin SR",
+      "category": "Diabetes",
+      "use": "Stronger dose variant of Sureglim-M1 for advanced diabetic control.",
+      "image_url": "images/Sureglim-M2.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sureglim-VG2",
+      "composition": "Voglibose + Glimepiride + Metformin SR",
+      "category": "Diabetes",
+      "use": "Triple-action therapy controlling glucose absorption, secretion, and production.",
+      "image_url": "images/Sureglim-VG2.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sureglim-MP1",
+      "composition": "Glimepiride + Pioglitazone + Metformin SR",
+      "category": "Diabetes",
+      "use": "Improves insulin sensitivity and reduces glucose levels (lower strength).",
+      "image_url": "images/Sureglim-MP1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Sureglim-MP2",
+      "composition": "Glimepiride + Pioglitazone + Metformin SR",
+      "category": "Diabetes",
+      "use": "Same as MP1 with higher Glimepiride strength for stronger effect.",
+      "image_url": "images/Sureglim-MP2.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Suretel-40",
+      "composition": "Telmisartan 40 mg",
+      "category": "Hypertension",
+      "use": "Controls high blood pressure and prevents heart attacks.",
+      "image_url": "images/Suretel-40.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Suretel-H",
+      "composition": "Telmisartan + Hydrochlorothiazide",
+      "category": "Hypertension",
+      "use": "Combines ARB and diuretic for improved BP control.",
+      "image_url": "images/Suretel-H.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Ristrose-10",
+      "composition": "Rosuvastatin 10 mg",
+      "category": "Cholesterol",
+      "use": "Lowers LDL cholesterol and triglycerides; reduces risk of heart disease.",
+      "image_url": "images/Ristrose-10.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Ristrose-F10",
+      "composition": "Rosuvastatin 10 mg + Fenofibrate 160 mg",
+      "category": "Cholesterol / Cardiovascular",
+      "use": "Dual therapy for cholesterol and triglyceride reduction.",
+      "image_url": "images/Ristrose-F10.jpg"
+    },
+    {
+      "id": 16,
+      "name": "PM-Sure",
+      "composition": "Mecobalamin + Alpha Lipoic Acid + Pyridoxine + Folic Acid + Vitamin D3",
+      "category": "Neuropathy",
+      "use": "Supports nerve repair and reduces diabetic neuropathic pain.",
+      "image_url": "images/PM-Sure.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Full-D3 60K",
+      "composition": "Cholecalciferol 60000 IU",
+      "category": "Vitamins / Bone Health",
+      "use": "Vitamin D3 supplement for bone strength and calcium absorption.",
+      "image_url": "images/Full-D3-60K.jpg"
+    },
+    {
+      "id": 18,
+      "name": "IT-New 200",
+      "composition": "Itraconazole 200 mg",
+      "category": "Antifungal",
+      "use": "Treats fungal infections affecting skin, nails, or internal organs.",
+      "image_url": "images/IT-New-200.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Coughsure Syrup",
+      "composition": "Terbutaline + Bromhexine + Guaiphenesin + Menthol",
+      "category": "Respiratory / Cough Relief",
+      "use": "Relieves productive cough, bronchitis, and chest congestion.",
+      "image_url": "images/Coughsure Syrup.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Active-M 4G",
+      "composition": "Omega 3 + Ginseng + Green Tea + Ginkgo Biloba + Grape Seed + Antioxidants",
+      "category": "Nutritional Supplement",
+      "use": "Improves vitality, stamina, and immunity with potent antioxidants.",
+      "image_url": "images/Active-M-4G.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Highrich Pro",
+      "composition": "Protein + Vitamins + Minerals + DHA",
+      "category": "Nutritional Supplement",
+      "use": "General health supplement for energy, recovery, and strength.",
+      "image_url": "images/Highrich-Pro.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Highrich Pro-D",
+      "composition": "Protein + Balanced Nutrition (Low Sugar)",
+      "category": "Nutritional (Diabetic-Friendly)",
+      "use": "Protein supplement designed for diabetics; supports strength and immunity.",
+      "image_url": "images/Highrich-Pro-D.jpg"
+    }
+  ]
+  

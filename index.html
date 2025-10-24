@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auren Healthcare — Advancing Wellness Through Science</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0d6efd, #20c997);
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 15px auto 25px;
+    }
+    .hero .btn {
+      background-color: white;
+      color: #0d6efd;
+      border: none;
+      font-weight: 500;
+    }
+    .hero .btn:hover {
+      background-color: #f8f9fa;
+    }
+    .about img {
+      border-radius: 10px;
+    }
+    .product-card img {
+      border-radius: 10px 10px 0 0;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 40px 0;
+      margin-top: 60px;
+    }
+     .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .whatsapp-float img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="assets/images/logo.png" alt="Auren Healthcare Logo" height="45" class="me-2">
+      <span class="fw-bold text-primary d-none d-md-inline">Auren Healthcare</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Advancing Wellness Through Science</h1>
+    <p>Delivering trusted formulations, cutting-edge research, and a commitment to global healthcare excellence.</p>
+    <a href="products.html" class="btn btn-lg">Explore Products</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about py-5">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-md-6">
+        <h2 class="fw-semibold mb-3 text-primary">Who We Are</h2>
+        <p>Auren Healthcare stands at the intersection of innovation and compassion. We believe healthcare should be accessible, ethical, and rooted in research.</p>
+        <p>Our teams combine decades of pharmaceutical experience with cutting-edge R&D, ensuring that every product meets the highest international standards.</p>
+        <a href="about.html" class="btn btn-outline-primary">Learn More</a>
+      </div>
+      <div class="col-md-6">
+        <img src="assets/images/lab_team.jpg" class="img-fluid shadow-sm" alt="Research team working in lab" />
+        <!-- <img src="https://placehold.co/500x350?text=Lab+Team+Photo" class="img-fluid shadow-sm" alt="Research team working in lab" /> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-semibold mb-5 text-primary">Our Divisions</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card product-card shadow-sm border-0">
+          <img src="assets/images/diabetes.jpg" class="card-img-top" alt="Diabetes Division">
+          <!-- <img src="https://placehold.co/300x200?text=Diabetes+Division" class="card-img-top" alt="Diabetes Division"> -->
+          <div class="card-body">
+            <h5 class="card-title text-primary">Diabetes</h5>
+            <p class="card-text">Trusted insulin support and glucose management solutions designed for effective daily care.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card shadow-sm border-0">
+          <img src="assets/images/hypertension.jpg" class="card-img-top" alt="Diabetes Division">
+          <!-- <img src="https://placehold.co/300x200?text=Hypertension+Division" class="card-img-top" alt="Hypertension Division"> -->
+          <div class="card-body">
+            <h5 class="card-title text-primary">Hypertension</h5>
+            <p class="card-text">Advanced formulations promoting cardiovascular balance and sustained blood pressure control.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card shadow-sm border-0">
+          <img src="assets/images/vitamins.jpg" class="card-img-top" alt="Diabetes Division">
+          <!-- <img src="https://placehold.co/300x200?text=Vitamins+%26+Supplements" class="card-img-top" alt="Vitamins and Supplements"> -->
+          <div class="card-body">
+            <h5 class="card-title text-primary">Vitamins & Supplements</h5>
+            <p class="card-text">Science-based nutrition support for immunity, recovery, and overall vitality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="products.html" class="btn btn-primary mt-4">Discover More</a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<!-- <section class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-semibold mb-5 text-primary">What Our Customers Say</h2>
+    <div class="row justify-content-center g-4">
+      <div class="col-md-5">
+        <div class="border rounded-3 p-4 shadow-sm bg-white">
+          <img src="https://placehold.co/80x80?text=Dr+M" class="rounded-circle mb-3" alt="Dr. Meera Narayan">
+          <p class="fst-italic">"Auren’s formulations have set a new standard in reliability and safety. Our patients trust them completely."</p>
+          <small class="fw-semibold text-secondary">— Dr. Meera Narayan, Endocrinologist</small>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="border rounded-3 p-4 shadow-sm bg-white">
+          <img src="https://placehold.co/80x80?text=MC" class="rounded-circle mb-3" alt="MedCure Diagnostics">
+          <p class="fst-italic">"From consultation to delivery, their professionalism and transparency stood out. Excellent partner for our clinic."</p>
+          <small class="fw-semibold text-secondary">— MedCure Diagnostics</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- CTA -->
+<section class="text-center py-5 bg-primary text-white">
+  <div class="container">
+    <h2 class="fw-semibold mb-3">Partner with Auren Healthcare</h2>
+    <p class="mb-4">Join us in our mission to advance wellness through science. We welcome collaborations and distribution partnerships.</p>
+    <a href="contact.html" class="btn btn-light">Get in Touch</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <h5 class="text-primary">Auren Healthcare</h5>
+        <p>Dedicated to quality and innovation in every formulation.</p>
+      </div>
+      <div class="col-md-4">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-decoration-none text-secondary">Home</a></li>
+          <li><a href="about.html" class="text-decoration-none text-secondary">About</a></li>
+          <li><a href="products.html" class="text-decoration-none text-secondary">Products</a></li>
+          <li><a href="contact.html" class="text-decoration-none text-secondary">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6>Contact Info</h6>
+        <p  class="text-secondary">No. 713/D, 11th Cross
+          M C Layout, Vijayanagar
+          Bangalore – 560040
+          Karnataka, India</p>
+        <p class="text-secondary">
+            Email: <a href="mailto:aurenhealthcare2@gmail.com" class="text-decoration-none text-primary">aurenhealthcare2@gmail.com</a>
+          </p>        
+          <p class="text-secondary">
+            Phone: <span id="phone-number">+91 96113 20568</span>
+          </p>
+      </div>
+    </div>
+    <div class="text-center small text-muted mt-4">
+      © 2025 Auren Healthcare. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp button -->
+<a href="https://wa.me/+919611320568" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+  <img src="assets/icons/whatsapp.png" alt="WhatsApp" />
+</a>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
